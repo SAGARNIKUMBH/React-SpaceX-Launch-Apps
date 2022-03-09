@@ -1,0 +1,85 @@
+.rocketCardList {
+  width: 100%;
+  overflow: hidden;
+}
+
+.rocketCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  /*  */
+  overflow: hidden;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.rocketCard img {
+  transition: all 0.6s ease-out;
+}
+
+.rocketCard:hover img {
+  transform: scale(1.08);
+}
+
+.rocketCardImageHeader {
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+}
+
+.rocketTitle {
+  color: rgb(50, 50, 194);
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.rocketDescription {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.rocketDescription > h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rocketDescription > p {
+  color: rgb(87, 84, 84);
+}
+
+.missionIds > h5 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  .rocketCardList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+
+  .rocketCard {
+    margin: 5px;
+    padding: 1rem;
+    width: calc((100% / 2) - 20px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rocketCardList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+
+  .rocketCard {
+    margin: 7px;
+    padding: 1rem;
+    width: calc((100% / 4) - 15px);
+  }
+}

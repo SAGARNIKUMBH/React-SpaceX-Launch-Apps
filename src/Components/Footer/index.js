@@ -5,7 +5,8 @@ const Footer = () => {
     <footer>
       <div className="container">
         <h4 className={styles.FooterStyle}>
-          Copyright &copy; Weoto.TechLab.Pvt.Ltd.
+          Developed By : &copy; Weoto.TechLab.Pvt.Ltd.
+          <p>GitHub Link Id : SAGAR NIKUMBH</p>
           <ul className="socials">
             <span className={styles.icon}>
               <i className="fab fa-facebook"></i>
